@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrameView</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400&display=swap" rel="stylesheet">
+    <script src="script/main.js" type="text/javascript"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>FrameView</h1>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html" class="underline">Contact</a>
+            </nav>
+            <div class="burger-menu">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </header>
+    
+
+    <main>
+        <div class="content-wrapper">
+            <div class="contact-section">
+                <form class="contact-form" action="#" method="POST">
+                    <h2>Contact us</h2>
+                    
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="E.g. Adrian Alfonso" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="E.g. something@gmail.com" required>
+
+                    <label for="phone">Phone No:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="E.g. 0952-538-9826" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Enter your message here" rows="5" required></textarea>
+                    
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+
+            <div class="updates-section">
+                <h2>Updates</h2>
+                <table class="updates-table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Date</th>
+                            <th>Location</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Adrian</td>
+                            <td>01/08/2024</td>
+                            <td>Philippines</td>
+                        </tr>
+                        <tr>
+                            <td>Adrian</td>
+                            <td>11/03/2023</td>
+                            <td>Japan</td>
+                        </tr>
+                        <tr>
+                            <td>Adrian</td>
+                            <td>10/23/2023</td>
+                            <td>Philippines</td>
+                        </tr>
+                        <tr>
+                            <td>Adrian</td>
+                            <td>09/15/2023</td>
+                            <td>Philippines</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+    
+    <footer>&copy;Adrian John C. Alfonso. All Rights Reserved.<a href="https://www.instagram.com" target="_blank"><img src="images/instagram.jpg" alt="Instagram Logo"></a><a href="https://www.facebook.com" target="_blank"><img src="images/fb.jpg" alt="facebook logo"></a><a href="https://www.tiktok.com" target="_blank"><img src="images/tiktok.png" alt="Tiktok Logo"></a>  </footer>
+</body>
+</html>
